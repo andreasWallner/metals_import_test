@@ -1,0 +1,13 @@
+The server is listening for incoming connections at local:///var/folders/l4/pqn5_wyj2_q10mfw8gtczhd40000gn/T/bsp2179060557201593094/eyj6k26yj6qn.socket...
+Accepted incoming BSP client connection at local:///var/folders/l4/pqn5_wyj2_q10mfw8gtczhd40000gn/T/bsp2179060557201593094/eyj6k26yj6qn.socket
+request received: build/initialize
+BSP initialization handshake complete.
+and outgoing JSON messages create an empty file at /Users/ben/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 3.09s
+INFO  time: imported build in 0.1s
+INFO  time: indexed workspace in 1.73s
+WARN  Missing project 'p2', may cause compilation issues in project 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 2.38s
+ERROR 'root-test' failed to compile.
+ERROR 'root' failed to compile.

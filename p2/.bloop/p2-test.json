@@ -1,0 +1,125 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "p2-test",
+        "directory" : "/Users/ben/halfthroneProject/code/metals_import_test/p2",
+        "sources" : [
+            "/Users/ben/halfthroneProject/code/metals_import_test/p2/src/test/scala-2.12",
+            "/Users/ben/halfthroneProject/code/metals_import_test/p2/src/test/scala",
+            "/Users/ben/halfthroneProject/code/metals_import_test/p2/src/test/java",
+            "/Users/ben/halfthroneProject/code/metals_import_test/p2/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies" : [
+            "p2"
+        ],
+        "classpath" : [
+            "/Users/ben/halfthroneProject/code/metals_import_test/p2/.bloop/p2/scala-2.12/classes",
+            "/Users/ben/.sbt/boot/scala-2.12.7/lib/scala-library.jar"
+        ],
+        "out" : "/Users/ben/halfthroneProject/code/metals_import_test/p2/.bloop/p2",
+        "classesDir" : "/Users/ben/halfthroneProject/code/metals_import_test/p2/.bloop/p2/scala-2.12/test-classes",
+        "resources" : [
+            "/Users/ben/halfthroneProject/code/metals_import_test/p2/src/test/resources",
+            "/Users/ben/halfthroneProject/code/metals_import_test/p2/target/scala-2.12/resource_managed/test"
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.12.7",
+            "options" : [
+                "-P:semanticdb:synthetics:on",
+                "-P:semanticdb:failures:warning",
+                "-P:semanticdb:sourceroot:/Users/ben/halfthroneProject/code/metals_import_test/p1",
+                "-Yrangepos",
+                "-Xplugin-require:semanticdb",
+                "-Xplugin:/Users/ben/.ivy2/cache/org.scalameta/semanticdb-scalac_2.12.7/jars/semanticdb-scalac_2.12.7-4.1.0.jar"
+            ],
+            "jars" : [
+                "/Users/ben/.sbt/boot/scala-2.12.7/lib/jline.jar",
+                "/Users/ben/.sbt/boot/scala-2.12.7/lib/scala-compiler.jar",
+                "/Users/ben/.sbt/boot/scala-2.12.7/lib/scala-library.jar",
+                "/Users/ben/.sbt/boot/scala-2.12.7/lib/scala-reflect.jar",
+                "/Users/ben/.sbt/boot/scala-2.12.7/lib/scala-xml_2.12.jar"
+            ],
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+                {
+                    "names" : [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "home" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre",
+                "options" : [
+                ]
+            },
+            "mainClass" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.12.7",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "/Users/ben/.sbt/boot/scala-2.12.7/lib/scala-library.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "/Users/ben/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,6 @@
+#FileLock
+#Thu Jan 31 20:45:22 AEDT 2019
+hostName=macbook-pro-2.gateway
+id=168a34c6f7fd929096f67a860a89c71cfb6ab051cd8
+method=file
+server=192.168.0.26\:63158
